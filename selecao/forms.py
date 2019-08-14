@@ -12,6 +12,6 @@ class CargoForm(forms.ModelForm):
 class CandidatoForm(forms.ModelForm):
     class Meta:
         model = Candidato
-        fields = ['name', 'vaga_relacionamento', 'curriculo']
+        fields = ['name', 'vaga_relac', 'curriculo']
 
 

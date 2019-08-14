@@ -12,7 +12,11 @@ class Cargo(models.Model):
 class Vaga(models.Model):
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=100)
-    cargo_relacionamento = models.ForeignKey(Cargo, on_delete=models.CASCADE)
+    cargo_relac = models.ForeignKey(
+        Cargo,
+        on_delete=models.CASCADE,
+        null=True, blank=True,
+    )
     salario = models.CharField(max_length=100)
 
 
@@ -22,8 +26,12 @@ class Vaga(models.Model):
 
 class Candidato(models.Model):
     name = models.CharField(max_length=100)
-    vaga_relacionamento = models.ForeignKey(Vaga, on_delete=models.CASCADE)
-    curriculo = models.CharField(max_length=100)
+    vaga_relac = models.ForeignKey(
+        Vaga,
+        on_delete=models.CASCADE,
+        null=True, blank=True,
+    )
+    curriculo = models.FileField(upload_to='uploads/')
 
     def __str__(self):
         return self.name
