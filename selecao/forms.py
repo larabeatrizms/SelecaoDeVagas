@@ -1,5 +1,5 @@
 from django import forms
-from .models import Cargo, Vagas
+from .models import Cargo, Candidato
 
 
 class CargoForm(forms.ModelForm):
@@ -8,7 +8,10 @@ class CargoForm(forms.ModelForm):
         fields = ['name', 'description']
 
 
-class VagasForm(forms.ModelForm):
+
+class CandidatoForm(forms.ModelForm):
     class Meta:
-        model = Vagas
-        fields = ['name', 'description', 'salario']
+        model = Candidato
+        fields = ['name', 'vaga_relacionamento', 'curriculo']
+
+

@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="563a1d48-fa50-48a9-bb43-a9bfe4b8a671" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/selecao/models2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selecao/templates/candidato-delete-confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selecao/templates/candidatos-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selecao/templates/candidatos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selecao/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selecao/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selecao/migrations/0002_vagas.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/selecao/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selecao/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selecao/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,17 +20,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PPcbajhrs1Gl9GQ7AkM2BXF8dd" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Selecao/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/selecao/templates" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/selecao/templates" />
       <recent name="$PROJECT_DIR$/Selecao/migrations" />
       <recent name="$PROJECT_DIR$/Selecao" />
     </key>

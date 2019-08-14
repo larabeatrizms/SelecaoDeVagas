@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
-from .models import Cargo
-from .forms import CargoForm
+from .models import Cargo, Vaga, Candidato
+from .forms import CargoForm, CandidatoForm
+
 
 
 def list_cargos(request):
@@ -37,3 +38,42 @@ def delete_cargo(request, id):
         return redirect('list_cargos')
 
     return render(request, 'cargo-delete-confirm.html', {'cargo': cargo})
+
+
+def list_candidatos(request):
+    candidatos = Candidato.objects.all()
+    return render(request, 'candidatos.html', {'candidatos': candidatos})
+
+
+def create_candidato(request):
+    form = CandidatoForm(request.POST or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect('list_candidatos')
+
+    return render(request, 'candidatos-form.html', {'form': form})
+
+
+def update_candidato(request, id):
+    candidato = Candidato.objects.get(id=id)
+    form = CandidatoForm(request.POST or None, instance=candidato)
+
+    if form.is_valid():
+        form.save()
+        return redirect('list_candidatos')
+
+    return render(request, 'candidatos-form.html', {'form': form, 'candidato': candidato})
+
+
+def delete_candidato(request, id):
+    candidato = Candidato.objects.get(id=id)
+
+    if request.method == 'POST':
+        candidato.delete()
+        return redirect('list_candidatos')
+
+    return render(request, 'candidato-delete-confirm.html', {'candidato': candidato})
+
+
+
