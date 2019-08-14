@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="563a1d48-fa50-48a9-bb43-a9bfe4b8a671" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/selecao/crud-bootstrap/bootstrap/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selecao/crud-bootstrap/bootstrap/template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selecao/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selecao/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selecao/migrations/0002_candidato_vaga.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selecao/migrations/0003_vaga_cargorelac.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selecao/migrations/0004_auto_20190814_1434.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydatabase" beforeDir="false" afterPath="$PROJECT_DIR$/mydatabase" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selecao/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selecao/templates/candidatos.html" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/templates/candidatos.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +34,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/selecao/crud-bootstrap/bootstrap" />
+      <recent name="$PROJECT_DIR$/selecao/templates" />
+      <recent name="$PROJECT_DIR$/selecao/crud-bootstrap" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/selecao/templates" />
+      <recent name="$PROJECT_DIR$/selecao/crud-bootstrap/bootstrap/js" />
       <recent name="$PROJECT_DIR$/Selecao/migrations" />
       <recent name="$PROJECT_DIR$/Selecao" />
     </key>

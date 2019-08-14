@@ -24,6 +24,10 @@ class Vaga(models.Model):
         return self.description
 
 
+def user_directory_path(instance, filename):
+    return 'user_{0}/{1}'.format(instance.curriculo, filename)
+
+
 class Candidato(models.Model):
     name = models.CharField(max_length=100)
     vaga_relac = models.ForeignKey(
@@ -31,7 +35,7 @@ class Candidato(models.Model):
         on_delete=models.CASCADE,
         null=True, blank=True,
     )
-    curriculo = models.FileField(upload_to='uploads/')
+    curriculo = models.FileField(upload_to=user_directory_path)
 
     def __str__(self):
         return self.name
