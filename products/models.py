@@ -8,3 +8,11 @@ class Product(models.Model):
 
     def __str__(self):
         return self.description
+
+
+class Cargo(models.Model):
+    nome = models.CharField(max_length=100)
+    description = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.description
