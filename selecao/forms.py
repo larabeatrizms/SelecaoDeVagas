@@ -5,4 +5,4 @@ from .models import Cargo
 class CargoForm(forms.ModelForm):
     class Meta:
         model = Cargo
-        fields = ['nome', 'description']
+        fields = ['name', 'description']

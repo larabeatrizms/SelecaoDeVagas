@@ -36,4 +36,4 @@ def delete_cargo(request, id):
         cargo.delete()
         return redirect('list_cargos')
 
-    return render(request, 'prod-delete-confirm.html', {'cargo': cargo})
+    return render(request, 'cargo-delete-confirm.html', {'cargo': cargo})
