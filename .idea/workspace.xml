@@ -3,21 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="563a1d48-fa50-48a9-bb43-a9bfe4b8a671" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/templates/cargo-delete-confirm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/templates/cargos-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/templates/cargos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selecao/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selecao/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selecao/templates/cargos.html" beforeDir="false" afterPath="$PROJECT_DIR$/selecao/templates/cargos.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

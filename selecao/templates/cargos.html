@@ -11,7 +11,7 @@
     <ul>
         {% for cargo in cargos %}
             <a href="{% url 'update_cargo' cargo.id %}">
-                <li> {{ cargo.description }}</li>
+                <li> {{ cargo.name }}</li>
             </a>
         {% endfor %}
     </ul>
